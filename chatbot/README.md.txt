@@ -1,11 +1,11 @@
-# Simple ChatBot (Python Console Version)
+# Simple ChatBot 
 
 This is a basic interactive chatbot built with Python. It asks users about their name, age, interests, favorite food, movie, color, and hobbies, and responds accordingly with fun replies.
 
 ## 🔧 Features
 - Takes user input from the console
 - Friendly and casual chatbot experience
-- Simple decision logic based on user preferences
+- Simple decision logic based on user preferences.
 
 ## 🛠️ Requirements
 
