@@ -3,7 +3,7 @@
 🎓 First-year B.Tech student | Aspiring AI/ML Developer  
 🐍 Python enthusiast | Git & GitHub learner  
 🚀 Preparing for Google Summer of Code 2026  
-🧠 Passionate about building smart assistants and AI-based tools in healthcare  
+🧠 Passionate about building smart assistants and AI-based tools
 🌱 Currently learning: Full Python, open-source contribution, and problem-solving
 
 🔧 Tech Stack:
