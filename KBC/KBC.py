@@ -1,5 +1,5 @@
 questions = ["Q.1 what is capital of India?", "Q.2 What is     the currency of korea? ", "Q.3 who wrote vol 1. song ? ", "Q.4 Cape town is capital of which country ?", "Q.5 In july 2024, which former player of indian cricket team was appointed as the head coach of Indian Mens cricket Team?", "Q.6 What is full form of NTA body which conducts The jee and Neet examination?", "Q.7 Out of acne , eczema, epilepsy, bronchitis , how many Primarily affect the skin? "]
-print("Deviyon Aur Sajjano swagat hai apka 'Kaun Banega Crorepati' mein")
+print("\n Deviyon Aur Sajjano swagat hai apka 'Kaun Banega Crorepati' mein")
 print(questions[0])
 user_input = str(input("Ans:"))
 if (user_input == 'Delhi' or user_input == 'delhi'):
