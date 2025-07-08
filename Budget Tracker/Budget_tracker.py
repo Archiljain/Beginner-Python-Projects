@@ -1,5 +1,14 @@
+import csv
+import os
+
 balance = 0
 transaction = []
+file_path = "budget_data.csv"
+if not os.path.exists(file_path):
+    with open(file_path, mode = 'w', newline = '') as file:
+        writer = csv.writer(file)
+        writer.writerow(["type", "amount"])
+
 def show_menu():
     print("\n=== Budget Tracker ===")
     print("1.add Income")
@@ -15,7 +24,11 @@ while True:
         amount = float(input("Enter your Income :"))
         balance += amount 
         transaction.append(f"Income : Rs. {amount}")
+        with open(file_path, mode = 'a', newline = '') as file:
+         writer = csv.writer(file)
+         writer.writerow(["Income", amount])
         print("Income added successfully !")
+
     elif choice == '2':
         print(balance)
     elif choice == '3':
@@ -23,10 +36,15 @@ while True:
         if amount <= balance:
          balance -= amount
          transaction.append(f"Expense : Rs. {amount}")
+         with open(file_path, mode = 'a', newline = '') as file:
+          writer = csv.writer(file)
+          writer.writerow(["expenses", amount])
          print("Expense entry done successfully .")
         else:
-            print("insufficent balance !")
+         print("insufficent balance !")
     elif choice == '4':
-        print(transaction)
+        print("\n Transaction history:")
+        for t in transaction:
+           print(t)
     elif choice == '5':
         break
