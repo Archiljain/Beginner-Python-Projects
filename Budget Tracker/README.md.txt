@@ -6,6 +6,7 @@ Track your daily income, expenses, and right from your terminal!
 ## 📌 Features
 
 - Add income and expenses
+- Now it can store data in excel form.
 - View transaction history for one run only
 - Check current balance
 - Simple, beginner-friendly Python logic
