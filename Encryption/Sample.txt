@@ -1,0 +1,16 @@
+🧪 Sample Input/Output
+Input (Encryption):
+
+
+1 for coding or 0 for decoding: 1
+Enter message: hello world
+Output:
+
+abcellohxyz deforldwuvw  (random strings will vary)
+Input (Decryption):
+
+1 for coding or 0 for decoding: 0
+Enter message: abcellohxyz deforldwuvw
+Output:
+
+hello world
